@@ -1,0 +1,48 @@
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}/* * Es un selector universal*/
+h2{font-family: Arial, Helvetica, sans-serif; color: chartreuse;}
+.card{background-color: violet;} /* Un selector de tipo calse donde se llama con un punto y seguido del nombre que le dimos en el html */ 
+
+
+/* Modificaciones en la parte de sección*/
+
+section{
+    width: 70%;
+    background-color: cornflowerblue;
+    float: left;
+    margin: 10px;
+}
+
+/*
+Medidas Absolutas: Modificaciones en la parte del artciulo
+Son medidas que no van a cambiar en el proyecto son los pixeles
+Medidas relativas que son el em se utiliza para hcer referenci a la fuente del navegador
+REM se adapta a la fuente del navegador, rem se dapra a la fuente raiz del HTML
+Medidas flexibles: se calcula con respecto al ancho del viewport ejemplo 100 uw igual al 100% de la ventana completa
+Vh se calcula con respecto a la altura del viweport
+vmin/vmax se calcula con respecto al ancho del viewport 
+*/
+
+article{
+    /*Top, Right, Bottom, Left */
+    /*margin: 5em 3em el primer término es de arriba y abajo, es segundo termino será de izquierda a derecha*/
+    margin: 0.5em 3em 0em 0em;
+    padding: 0.5em 2em;
+    background-color: crimson;
+    border: 10px solid black;
+}
+
+aside{
+    width: 25%;
+    float: left;
+    background-color: darkgoldenrod;
+}
+
+footer{
+    background-color: blueviolet;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 10px;
+    clear: both; /*El footer estará abajo*/
+}

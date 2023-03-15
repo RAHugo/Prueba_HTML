@@ -1,0 +1,22 @@
+nav{
+    background-color: orchid;
+    width: auto; /* Para que el ancho sea*/
+    height: 50px;
+    word-spacing: 55px; /* Se paración entre palabras*/
+    text-align: center; /*Alineación de texto*/
+    padding: 25px; /*Espacio entre las cajas*/
+    margin: 10px; /*Margen*/
+}
+
+a{
+    text-decoration: none; /*Decoración de textp*/
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+a:hover{ /**Es para poder darle estilo a los hipervinculos **/
+    background-color: blue;
+    border-radius: 20px;
+    padding: 15px;
+}

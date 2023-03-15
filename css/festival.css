@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap');
+table{
+    border: dotted white;
+    background-color: rgb(209, 91, 70);
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body{
+    background-color: azure;
+    font-family: 'Lato', sans-serif;
+}
+
+td{
+    border: solid white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+

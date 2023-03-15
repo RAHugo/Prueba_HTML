@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+</head>
+<body>
+    <nav> <!-- Es para hacer menú o para navegar entre paginas-->
+        <a href="index.html" target="_blank">Inicio</a>  <!-- se inserta una nueva pagina para que sea parte de un menú, sino se agrera una etiqueta no va aparecer la etiqueta; target no abre un pagina en una nueva pestaña-->
+        <a href="./arcade.html" target="_blank"> Acerca de</a> <!--Para insertar de manera más rápida a href es con un a*--> 
+        <a href="./contacto.html" target="_blank">Contacto </a> 
+        <a href="./acti.html" target="_blank">Actividades</a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5087/5087579.png" alt="Inicio de sesión" width="30px" height="38px"></a> <!--Con img se puede agregar imagenes, cuando se usa un # en el href es porque aún no se tiene una pagina definida-->     
+    </nav>
+<p>Pagina sobre nuestro contacto</p>
+
+<section>
+    <ol>
+        <li>Tienda</li>
+        <li>Taller</li>
+        <li>Tianguis</li>
+    </ol>
+
+    <ul>
+        <li>Centro</li>
+        <li>Jardines</li>
+        <li>Estado</li>
+    </ul>
+</section>
+
+<br>
+<br>
+
+<section>
+    <form action=""> <!--Agregar un formulario-->
+        <label for="name">Nombre</label> <!--Etiqueta-->
+        <input type="text" id="name"> <!--Tipo de entrada en este caso para texto-->
+        <br>
+        <br>
+        <label for="mail">Correo Electrónico</label> 
+        <input type="email" id="mail"> <!--Tipo de entrada para correo electrónicos--> 
+        <br>
+        <br>
+        <label for="mensaje">Escribe tu mensaje</label>
+        <textarea name="user_message" id="mensaje" cols="30" rows="10"></textarea><!--Caja para que los usuarios puedan escribir un mensaje-->
+        <br>
+        <br>
+        <label for="sucursales">Elige una sucursal</label> <!--Realizar una lista desplegable-->
+        <select name="sucursal" id="sucursal">
+            <option value="">Selecciona una sucursal</option>
+            <option value="jm">Jardines de Morelos</option>
+            <option value="cdmx">Ciudad de México</option>
+            <option value="mty">Monterrey</option>
+        </select>
+        <br><br>
+        <label for="tiempo">Tiempo</label> <!--Es para que el usuario pueda poner una fecha-->
+        <input type="date" id="tiempo">
+        <br><br>
+        <label for="naciolidad">¿Nos contacta dentro de la republica mexican?</label> <!--Tiene un cuadro de validación-->
+        <input type="checkbox">
+        <br><br>
+        <button type="button" onclick="alert('Gracias por enviar tu formulario')">Enviar</button><!--Para poder agrear un boton en el formulario-->
+        <br><br>
+        <label for="adj">Agregar tu CV</label>
+        <input type="file" name="adjunto" id="adj" accept=".pdf , .jpg , .png" multiple>
+    </form>
+
+
+</section>
+
+</body>
+</html>
